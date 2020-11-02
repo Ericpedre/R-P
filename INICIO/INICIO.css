@@ -1,11 +1,12 @@
-body{
-display: flex;
-justify-items: center;
-align-content: center;
-align-content: center;
-overflow: hidden;
-}
 
+#INICIO{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+    
 #im{
     overflow-x: hidden;
     overflow-y: hidden;
