@@ -1,0 +1,82 @@
+
+#Galeria_Seccion_2{
+    background: #00000000;
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+/* -----TEXTO 1------- */
+#Introduccion{
+    height: 18vh;
+    width: 100vw;
+}
+#Introduccion>h1{
+    /* height: 20vh; */
+    width: 100vw;
+    /* width: 100vw;  */
+    padding-left:1.5vw; 
+    padding-top: 1vh; 
+    text-align: center;
+    color: #f0ece2;
+}
+#Introduccion>p{
+    /* height: 20vh;
+    width: 100vw;
+    width: 100vw;  */
+    padding-left:1.5vw; 
+    padding-top: 1vh;  
+    text-align: center;
+    color: #f0ece2;
+}
+/* ---------CNTENEDOR DE FOTOS----- */
+#Contenedor_de_fotos{
+    height: 53vh;
+    width: 97vw;
+    border-radius: 0.25vh;
+    margin-left: 1.5vw;
+    /* margin: 1vh; */
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow:
+    6px 6px 20px -1px  rgb(7, 11, 14,1),
+    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+}
+#CF1{
+animation: cambio 120s infinite alternate linear;
+}
+#Contenedor_de_fotos>#f{
+    height: 50vh;
+}
+#Contenedor_de_fotos>#f>img{
+    height: 50vh;
+    width: auto;
+    margin-right: 0.5vw; 
+}
+#Contenedor_de_fotos>#f>svg{
+  color: rgba(255, 255, 255, 0.29);
+  position: absolute;
+  margin-top: 2.5vh;
+  margin-left: -4vw;
+  height: 5vh;
+}
+#Contenedor_de_fotos>img:onclick{
+   animation-duration: 2s;
+   animation-name: Pe;
+   animation-iteration-count: 1;
+}
+@keyframes Pe{
+     0%{--bx:50;}
+    10%{--bx:45;}
+    20%{--bx:40;}
+    30%{--bx:35;}
+    40%{--bx:30;}
+    50%{--bx:25;}
+    60%{--bx:20;}
+    70%{--bx:15;}
+    80%{--bx:10;}
+    90%{--bx:05;}
+   100%{--bx:00;}
+}
+

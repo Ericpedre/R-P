@@ -30,14 +30,26 @@
   <link rel="icon"
     href="https://firebasestorage.googleapis.com/v0/b/web1-a73ce.appspot.com/o/Logo.png?alt=media&token=cec2185d-5cbb-46b0-bec0-e82f0251d0ef">
   <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#563d7c">
+  <!-- <meta name="theme-color" content="#ffff"> -->
+  <!-- ------animaciones con anime---- -->
+  <!-- <script src="path/to/anime.min.js"></script> -->
 
-  <!-- ---------CSSS------ -->
+  <!-- ---------CSSS----- -->
+  <!-- index css -->
   <link rel="stylesheet" href="./index.css">
+  <!-- INICIO -->
   <link rel="stylesheet" href="./INICIO/INICIO.css">
+  <!-- GALERIA -->
+  <link rel="stylesheet" href="./GALERIA/GALERIA.css">
+    <!-- Galeria_Seccion_1 -->
+    <link rel="stylesheet" href="./GALERIA/Galeria_Seccion_1/Galeria_Seccion_1.css">
+    <!-- Galeria_Seccion_2 -->
+    <link rel="stylesheet" href="./GALERIA/Galeria_Seccion_2/Galeria_Seccion_2.css">
+    <!-- Galeria_Seccion_3 -->
+    <link rel="stylesheet" href="./GALERIA/Galeria_Seccion_3/Galeria_Seccion_3.css">
 
   <!-- Custom styles for this template -->
-  <link href="./Plantilla de portada · Bootstrap_files/cover.css" rel="stylesheet">
+  <!-- <link href="./Plantilla de portada · Bootstrap_files/cover.css" rel="stylesheet"> -->
   <link id="avast_os_ext_custom_font"
     href="chrome-extension://eofcbnmajmjmplflapaojjnihcjkigck/common/ui/fonts/fonts.css" rel="stylesheet"
     type="text/css">
@@ -147,13 +159,177 @@
 
   </div>
   <!-- ----------GALERIA----------- -->
-  
+  <div class="GALERIA" id="GALERIA">
+    <!-- Galeria_Seccion_1 -->
+    <div class="Galeria_Seccion_1" id="Galeria_Seccion_1">
 
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">R&P Foto Estudio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Paquetes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cotiza</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ajustes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Ajustes 1</a>
+                <a class="dropdown-item" href="#">Ajustes 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Ajustes 3</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Otros</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="margin-right: 1vw;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </div>
 
+    <!-- Galeria_Seccion_2 -->
+    <div class="Galeria_Seccion_2" id="Galeria_Seccion_2">
+
+      <div id="Introduccion" class="Introduccion">
+          <h1>
+            Galeria
+          </h1>
+            <p>
+              Aqui puedes darle clic a las fotos que te gusten y el asistente virtual te recomendara un paquete personalizado basado en tus gustos.
+            </p>
+      </div>
+
+      <div class="Contenedor_de_fotos" id="Contenedor_de_fotos">
+        <p id="CF1"></p>
+
+      </div>
+      
+    </div>
+
+    <!-- Galeria_Seccion_3 -->
+    <div class="Galeria_Seccion_3" id="Galeria_Seccion_3">
+      
+      <div class="container"  >
+        <!-- Example row of columns -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <h2>Fotos en exteriores</h2>
+            <p>Lorem ipsum dolor sit amet non itaque porro ad.</p>
+            <p><a  onclick="document.getElementById('flot_1').style.display='flex';
+              document.getElementById('Album_1').style.display='flex';"   
+              class="btn btn-secondary"  role="button">Ver</a></p>          </div>
+
+          <div class="col-md-4">
+            <h2>Personaliza</h2>
+            <p>Lorem ipsum dolor sit amet non itaque porro ad.</p>
+            <p><a  onclick="document.getElementById('flot_1').style.display='flex';
+              document.getElementById('Album_1').style.display='flex';"   
+              class="btn btn-secondary"  role="button">Crear</a></p>         
+          </div>
+
+          <div class="col-md-4">
+            <h2>fotos en eventos</h2>
+            <p>Lorem ipsum dolor sit amet non itaque porro ad.</p>
+            <p><a  onclick="document.getElementById('flot_1').style.display='flex';
+              document.getElementById('Album_1').style.display='flex';"   
+              class="btn btn-secondary"  role="button">Ver</a></p>
+          </div>
+
+        </div>
+    
+      </div>
+
+    </div>
+
+    <div class="flot" id="flot_1">
+        <div id="Album_1">
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109">
+                <h1>Dentro de estudios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!</p>
+                <p><a  onclick=""
+                  class="btn btn-secondary"  role="button">Agregar</a></p>
+              </div>
+
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_photo_album_e8hj.svg?alt=media&token=fbb2c9eb-076a-4d53-83ab-15846944875b">
+                <h1>Horizontales en ciudad</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!</p>
+                <p><a  onclick=""
+                  class="btn btn-secondary"  role="button">Agregar</a></p>
+              </div>
+              
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109">
+                <h1>Dentro de estudios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!</p>
+                <p><a  onclick=""
+                  class="btn btn-secondary"  role="button">Agregar</a></p>
+              </div>
+              
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109">
+                <h1>Dentro de estudios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!</p>
+                <p><a  onclick=""
+                  class="btn btn-secondary"  role="button">Agregar</a></p>
+              </div>
+              
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109">
+                <h1>Dentro de estudios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!</p>
+                <p><a  onclick=""
+                  class="btn btn-secondary"  role="button">Agregar</a></p>
+              </div>
+              
+              <div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_photo_session_clqr.svg?alt=media&token=582caa0a-6690-4426-9547-216ece1fdbb1">
+                <h1>Dentro de estudios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!</p>
+                <p><a  onclick=""
+                  class="btn btn-secondary"  role="button">Agregar</a></p>
+              </div>
+              
+              
+        </div>
+    </div>
+
+  </div>
+
+    
 
 <!-- ----------Script----------- -->
   <script src="./index.js"></script>
+  <!--INICIO js-->
   <script src="./INICIO/INICIO.js"></script>
-
+  <!--GALERIA js-->
+  <script src="./GALERIA/GALERIA.js"></script>
+    <!--GALERIA_Seccio_1 js-->
+    <script src="./GALERIA/Galeria_Seccion_1/Galeria_Seccion_1.js"></script>
+    <!--GALERIA_Seccio_2 js-->
+    <script src="./GALERIA/Galeria_Seccion_2/Galeria_Seccion_2.js"></script>
+    <!--GALERIA_Seccio_3 js-->
+    <script src="./GALERIA/Galeria_Seccion_3/Galeria_Seccion_3.js"></script>
 </body>
 </html>

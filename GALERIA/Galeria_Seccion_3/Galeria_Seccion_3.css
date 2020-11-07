@@ -1,0 +1,15 @@
+#Galeria_Seccion_3{
+    height: 20vh;
+    max-height: 20vh;
+    background: #00000000;
+    margin-top: 5vh;
+}
+.col-md-4{
+    color: #f0ece2;
+}
+.col-md-4>p>a{
+ background: #343a40;
+ border-color: #00000000;
+ border-radius: 0.25vh;
+
+}
