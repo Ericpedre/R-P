@@ -32,7 +32,7 @@
 /* ---------CNTENEDOR DE FOTOS----- */
 #Contenedor_de_fotos{
     height: 53vh;
-    width: 40vw;
+    width: 60vw;
     border-radius: 0.25vh;
     margin-left: 0.5vw;
     /* margin: 1vh; */
@@ -47,10 +47,10 @@
 animation: cambio 120s infinite alternate linear;
 }
 #Contenedor_de_fotos>#f{
-    height: 50vh;
+    height: 60vh;
 }
 #Contenedor_de_fotos>#f>img{
-    height: 50vh;
+    height: 49vh;
     width: auto;
     margin-right: 0.5vw; 
 }
