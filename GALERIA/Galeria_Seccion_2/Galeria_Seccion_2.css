@@ -32,9 +32,9 @@
 /* ---------CNTENEDOR DE FOTOS----- */
 #Contenedor_de_fotos{
     height: 53vh;
-    width: 97vw;
+    width: 40vw;
     border-radius: 0.25vh;
-    margin-left: 1.5vw;
+    margin-left: 0.5vw;
     /* margin: 1vh; */
     display: flex;
     overflow-x: hidden;

@@ -12,27 +12,39 @@
 }
 
 .flot{
-   height: 100vh; 
+  margin-top: 8vh;
+   height: 65vh; 
    width: 100vw;
-   background: #00000056;
+   background: #00000000;
    position: absolute;
    flex-direction: column;
     justify-items: center;
     align-content: center;
     align-items: center;
+    justify-content: center;
+    align-items: center;
     /* padding-left: 2.5vw; */
-    padding-top: 2.5vh;
-    display: none;
+    /* padding-top: 2.5vh; */
+    display: flex;
     /* overflow-y: hidden;
     overflow-x: hidden; */
 }
 .flot>#Album_1{
-    height: 95vh; 
-    width: 95vw;
+  /* padding-bottom: 110vh; */
+  /* justify-items: center;
+  align-content: center; */
+  /* align-items: center; */
+  justify-content: center;
+    margin-top: 16.5vh;
+    max-height: 48.5vh;
+    height: 48.5vh; 
+    width: 60vw;
     background: #161a1d;
-    padding-top: 2.5vw;
+    /* padding-top: 2.5vw; */
     display: flex;
   flex-wrap: wrap;
+  overflow: auto;
+  margin-left: 40vw;
  }
 .flot>#Album_1>div{
  height: 40vh;
@@ -43,7 +55,8 @@
  -0px -6px 20px 0px rgb(37, 41, 44, 1);
  padding: 2vw;
  border-radius: 0.25vh;
- margin-left: 2.5vw;
+ margin-left: 1.5vw;
+ margin-top: 2.5vw;
 }
 
 .flot>#Album_1>div>img{
