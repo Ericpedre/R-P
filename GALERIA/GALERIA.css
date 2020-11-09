@@ -38,16 +38,16 @@
     margin-top: 16.5vh;
     max-height: 48.5vh;
     height: 48.5vh; 
-    width: 60vw;
+    width: 52.5vw;
     background: #161a1d;
     /* padding-top: 2.5vw; */
     display: flex;
   flex-wrap: wrap;
   overflow: auto;
-  margin-left: 40vw;
+  margin-left: 45vw;
  }
 .flot>#Album_1>div{
- height: 40vh;
+ height: 45vh;
  width: 15vw;
  background-color: #343A40;
  box-shadow:
@@ -56,7 +56,7 @@
  padding: 2vw;
  border-radius: 0.25vh;
  margin-left: 1.5vw;
- margin-top: 2.5vw;
+ margin-top: 2vw;
 }
 
 .flot>#Album_1>div>img{
@@ -71,4 +71,5 @@ width: 10vw;
   font-size: 2vh;
   color: #f0ece250;
   text-align: left;
+  
 }

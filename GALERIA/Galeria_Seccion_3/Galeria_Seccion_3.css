@@ -62,7 +62,7 @@
     -0px -6px 20px 0px rgb(37, 41, 44, 1);
 }
 .Desc>h1{
-    margin-top: 2vh;
+    margin-top: 1vh;
     width: 50vw;
     background: #00000000;
     text-align: left;
@@ -75,4 +75,14 @@
     text-align: left;
     padding-left: 2vw;
     color: #f0ece2;
+}
+.Desc>p>a{
+    background: #004ca9f9;
+    box-shadow:
+    6px 6px 20px -1px  rgb(7, 11, 14,1),
+    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+    border-radius: 0.25vh;
+    border-color: #00000000;
+    align-content: center;
+    align-items: center;
 }
