@@ -167,7 +167,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#" id="btn-inicio">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Galeria</a>
@@ -280,5 +280,33 @@
     <script src="./GALERIA/Galeria_Seccion_2/Galeria_Seccion_2.js"></script>
     <!--GALERIA_Seccio_3 js-->
     <script src="./GALERIA/Galeria_Seccion_3/Galeria_Seccion_3.js"></script>
+
+<!-- Firebase -->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBw1HowPyR9jMy4kkGPS9z_JRgW3tz5zow",
+    authDomain: "fotoseventosr-p.firebaseapp.com",
+    databaseURL: "https://fotoseventosr-p.firebaseio.com",
+    projectId: "fotoseventosr-p",
+    storageBucket: "fotoseventosr-p.appspot.com",
+    messagingSenderId: "842541576434",
+    appId: "1:842541576434:web:abcbb5902599d3651a606b",
+    measurementId: "G-XWM33T348G"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </body>
 </html>
