@@ -102,7 +102,7 @@ document.getElementById("Contenedor_de_fotos").innerHTML +=`
     `;
 }
 
-// setTimeout(document.getElementById('img_CdF${i}').style.display='none', 2000)
+// setTimeout(document.getElementById('img_CdF${i}').style.dis. play='none', 2000)
 // document.getElementById('img_CdF${i}').style.animationPlayState
 
 var Parejas = [];

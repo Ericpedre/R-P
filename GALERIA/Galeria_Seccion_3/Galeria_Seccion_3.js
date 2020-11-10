@@ -1,7 +1,7 @@
 GALERIA_Btn_Sesion = [];
 GALERIA_Btn_Sesion = [
     [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
+      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/Fotos%2FExterior%2FHorizontales%2FIMG_0019.JPG?alt=media&token=b3f9106d-225d-481e-a21c-2d8d4bc2d02b',
       'Fotos para Bodas',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '1_Premium',
