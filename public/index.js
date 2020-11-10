@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+// const btnPaquetes = document.getElementById('btn-paquetes');
+// btnPaquetes.addEventListener('click', () => {
+//     console.log('flag')
+//     firebase.analytics().logEvent('prueba', { name: 'testname'});
+// })
+=======
 console.log('inicio')
 
 
@@ -10,3 +17,4 @@ btnInicio.addEventListener('click', () => {
 })
 
 console.log('fin')
+>>>>>>> 5f232b1def386cd9d8ab8327f182132d357afb51
