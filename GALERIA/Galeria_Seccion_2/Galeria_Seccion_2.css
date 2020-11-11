@@ -53,6 +53,7 @@ animation: cambio 120s infinite alternate linear;
     height: 49vh;
     width: auto;
     margin-right: 0.5vw; 
+    border-radius: 0.25vh;
 }
 #Contenedor_de_fotos>#f>svg{
   color: rgba(255, 255, 255, 0.29);

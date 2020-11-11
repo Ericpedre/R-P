@@ -1,8 +1,8 @@
 GALERIA_Btn_Sesion = [];
 GALERIA_Btn_Sesion = [
     [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/Fotos%2FExterior%2FHorizontales%2FIMG_0019.JPG?alt=media&token=b3f9106d-225d-481e-a21c-2d8d4bc2d02b',
-      'Fotos para Bodas',
+      'https://drive.google.com/uc?export=view&id=17nhSwELfVBYzX3xqaO_N46V_AgFOctjQ',
+      'Primeros añitos',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '1_Premium',
       '20 Fotos 12x12 + 10 Fotos 10x10',
@@ -15,8 +15,8 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Sesion en Estudio',
+      'https://drive.google.com/uc?export=view&id=1P72sd-Cj8t9tN9c9Fi1_3H19MV8w0Udn',
+      'Fotos en exteriores',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '2_Premium',
       '20 Fotos 12x12 + 10 Fotos 10x10',
@@ -29,8 +29,8 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ], 
     [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Fotos casuales',
+      'https://drive.google.com/uc?export=view&id=1sfYaJ_giPcgCzUWXYqi_v4pSH8Jb4qZb',
+      'Graduandos',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '3_Premium',
       '20 Fotos 12x12 + 10 Fotos 10x10',
@@ -43,8 +43,8 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Fotos artisticas',
+      'https://drive.google.com/uc?export=view&id=1U9_-jUTnSOkoqRAUwXPOweaGHYAh7zxw',
+      'Para Parejas',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '4_Premium',
       '20 Fotos 12x12 + 10 Fotos 10x10',
@@ -57,117 +57,19 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Seremonia de Graduacion',
+      'https://drive.google.com/uc?export=view&id=1bnxxrX8w3SuJEFaXQLP47X9n6eD7S892',
+      'Cultura y Tradiciones',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '5_Premium',
+      '4_Premium',
       '20 Fotos 12x12 + 10 Fotos 10x10',
       '20$ Contratar',
-      '5_Normal',
+      '4_Normal',
       '10 Fotos 12x12 + 10 Fotos 10x10',
       '15$ Contratar',
-      '5_regular',
+      '4_regular',
       '5 Fotos 12x12 + 5 Fotos 10x10',
       '10$ Contratar'
-    ],
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Para Redes Sociales',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '6_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '6_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '6_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ], 
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Para emprendimientos',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '7_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '7_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '7_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ],
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Al aire libre',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '8_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '8_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '8_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ],
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'para Graduandos',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '9_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '9_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '9_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ],
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'para Cumpleaños',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '10_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '10_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '10_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ],
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'Primeros añitos',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '11_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '11_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '11_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ],
-    [
-      'https://firebasestorage.googleapis.com/v0/b/fotoseventosr-p.appspot.com/o/UnDraw%2Fundraw_fashion_photoshoot_mtq8.svg?alt=media&token=21c24227-eaaa-409c-a069-38b1925dc109',
-      'para Parejas',
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
-      '12_Premium',
-      '20 Fotos 12x12 + 10 Fotos 10x10',
-      '20$ Contratar',
-      '12_Normal',
-      '10 Fotos 12x12 + 10 Fotos 10x10',
-      '15$ Contratar',
-      '12_regular',
-      '5 Fotos 12x12 + 5 Fotos 10x10',
-      '10$ Contratar'
-    ],
+    ]
 ];
 
 for(i=0; GALERIA_Btn_Sesion.length>i; i++){
