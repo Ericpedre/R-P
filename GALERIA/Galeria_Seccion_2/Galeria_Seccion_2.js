@@ -13,6 +13,19 @@ Fotos_Exteriores_V =[
     ['https://drive.google.com/uc?export=view&id=1sGEDTyL5rAcsCLU8FxJcCKJbdojGX8UT','AV'],
     ['https://drive.google.com/uc?export=view&id=1AYRv4owd3fHmk0Vo5HjrBbmAHrCMyo_0','AV']
 ];
+Fotos_Bodas_H =[
+    ['https://drive.google.com/uc?export=view&id=1A3p8F-kjoeESETjV5j-eSbyCB2fC8znv','BH']
+];    
+Fotos_Bodas_V =[
+    ['https://drive.google.com/uc?export=view&id=1MAVejWDxIxJ88B-tQ5zm9-EYunu5tl8O','BV'],
+    ['https://drive.google.com/uc?export=view&id=1i3Bxlei2L8HGlUgHAYn91jjIz5vDWdRQ','BV'],
+    ['https://drive.google.com/uc?export=view&id=16W9e3YTHmbd1_sOokIy7ITYZ_gQCQL0Z','BV'],
+    ['https://drive.google.com/uc?export=view&id=1UPSuLR9SmB4e9TYNIq44_C129tnaR_Bj','BV'],
+    ['https://drive.google.com/uc?export=view&id=1bQQ-u34MG3OhrCo0fhv-4tsYQXSFbVcH','BV'],
+    ['https://drive.google.com/uc?export=view&id=1x23ZTp4ccgG9aHU3scH6L9Vf2h9nT7fb','BV'],
+    ['https://drive.google.com/uc?export=view&id=1szN520eEx4ES-thcNp35uFkI39fwKSYF','BV'],
+    ['https://drive.google.com/uc?export=view&id=1QRokgazCTuR5-mWYvWUvTZvdiemQdv-i','BV']
+];
 Fotos_Parejas_H =[
     ['https://drive.google.com/uc?export=view&id=1K8ZQve331vtdf7lcKAiet_8cBGliJEQB','BH'],
     ['https://drive.google.com/uc?export=view&id=1U9_-jUTnSOkoqRAUwXPOweaGHYAh7zxw','BH']
@@ -57,7 +70,7 @@ Fotos_Bebes_V =[
 ];
 
 Fotos_Todas = [];
-Fotos_Todas = Fotos_Exteriores_H.concat(Fotos_Bebes_V, Fotos_Bebes_H, Fotos_Exteriores_V , Fotos_Parejas_H, Fotos_Parejas_V, Fotos_Tradicionales_H, Fotos_Tradicionales_v, Fotos_Graduandos_H, Fotos_Graduandos_v);
+Fotos_Todas = Fotos_Exteriores_H.concat(Fotos_Bebes_V, Fotos_Bebes_H, Fotos_Exteriores_V ,Fotos_Bodas_H,Fotos_Bodas_V, Fotos_Parejas_H, Fotos_Parejas_V, Fotos_Tradicionales_H, Fotos_Tradicionales_v, Fotos_Graduandos_H, Fotos_Graduandos_v);
 
 Fot = []; 
 
