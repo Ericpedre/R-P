@@ -1,6 +1,6 @@
 
 #INICIO{
-    display:none;
+    display:flex;
     justify-items: center;
     align-content: center;
     align-content: center;
@@ -19,27 +19,17 @@
     animation: cambio 120s infinite alternate linear;
 }
 @keyframes cambio{
-    0%{margin-left:        0vw;}
-    5%{margin-left:   -37.75vw;}
-    10%{margin-left:   -75.5vw;}
-    15%{margin-left: -113.25vw;}
-    20%{margin-left:    -151vw;}
-    25%{margin-left: -188.75vw;}
-    30%{margin-left:  -226.5vw;}
-    35%{margin-left: -264.25vw;}
-    40%{margin-left:    -302vw;}
-    45%{margin-left: -339.75vw;}
-    50%{margin-left:  -377.5vw;}
-    55%{margin-left: -415.25vw;}
-    60%{margin-left:    -453vw;}
-    65%{margin-left: -490.75vw;}
-    70%{margin-left:  -528.5vw;}
-    75%{margin-left: -566.25vw;}
-    80%{margin-left:    -604vw;}
-    85%{margin-left: -641.75vw;}
-    90%{margin-left:  -679.5vw;}
-    95%{margin-left: -717.25vw;}
-    100%{margin-left:   -755vw;}
+    0%{margin-left:     0vw;}
+    10%{margin-left:  -30vw;}
+    20%{margin-left: -60vw;}
+    30%{margin-left: -90vw;}
+    40%{margin-left: -120vw;}
+    50%{margin-left: -150vw;}
+    60%{margin-left: -180vw;}
+    70%{margin-left: -210vw;}
+    80%{margin-left: -240vw;}
+    90%{margin-left: -270vw;}
+    100%{margin-left:-300vw;}
 }
 @media only screen and (min-width:320px) and (max-width:768px){
 .slider, .slider ul, .slider img{

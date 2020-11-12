@@ -1,4 +1,15 @@
 /* --------GALERIA --------------- */
+body{
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  align-content: center;
+  overflow: hidden;
+  /* overflow-y: auto; */
+  text-align: center;
+  height: 100vh;
+  max-height: 100vh;
+  }
 #GALERIA{
     display:flex;
     background: #161a1d;

@@ -1,7 +1,7 @@
 GALERIA_Btn_Sesion = [];
 GALERIA_Btn_Sesion = [
     [
-      'https://drive.google.com/uc?export=view&id=1A3p8F-kjoeESETjV5j-eSbyCB2fC8znv_',
+      'https://drive.google.com/uc?export=view&id=1A3p8F-kjoeESETjV5j-eSbyCB2fC8znv',
       'Sesion en Bodas',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '0_Premium',
@@ -15,7 +15,7 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://drive.google.com/uc?export=view&id=17nhSwELfVBYzX3xqaO_N46V_AgFOctjQ_',
+      'https://drive.google.com/uc?export=view&id=17nhSwELfVBYzX3xqaO_N46V_AgFOctjQ',
       'Primeros añitos',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '1_Premium',
@@ -29,7 +29,7 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://drive.google.com/uc?export=view&id=1P72sd-Cj8t9tN9c9Fi1_3H19MV8w0Udn_',
+      'https://drive.google.com/uc?export=view&id=1P72sd-Cj8t9tN9c9Fi1_3H19MV8w0Udn',
       'Fotos en exteriores',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '2_Premium',
@@ -43,7 +43,7 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ], 
     [
-      'https://drive.google.com/uc?export=view&id=1sfYaJ_giPcgCzUWXYqi_v4pSH8Jb4qZb_',
+      'https://drive.google.com/uc?export=view&id=1sfYaJ_giPcgCzUWXYqi_v4pSH8Jb4qZb',
       'Graduandos',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '3_Premium',
@@ -57,7 +57,7 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://drive.google.com/uc?export=view&id=1U9_-jUTnSOkoqRAUwXPOweaGHYAh7zxw_',
+      'https://drive.google.com/uc?export=view&id=1U9_-jUTnSOkoqRAUwXPOweaGHYAh7zxw',
       'Para Parejas',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '4_Premium',
@@ -71,7 +71,7 @@ GALERIA_Btn_Sesion = [
       '10$ Contratar'
     ],
     [
-      'https://drive.google.com/uc?export=view&id=1bnxxrX8w3SuJEFaXQLP47X9n6eD7S892_',
+      'https://drive.google.com/uc?export=view&id=1bnxxrX8w3SuJEFaXQLP47X9n6eD7S892',
       'Cultura y Tradiciones',
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae!',
       '4_Premium',
