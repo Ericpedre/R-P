@@ -1,5 +1,5 @@
 
-#Galeria_Seccion_2{
+#Index_Seccion_2{
     background: #00000000;
     height: 65vh;
     width: 100vw;
@@ -44,7 +44,7 @@
     -0px -6px 20px 0px rgb(37, 41, 44, 1);
 }
 #CF1{
-animation: cambio 120s infinite alternate linear;
+animation: cambio 300s infinite alternate linear;
 }
 #Contenedor_de_fotos>#f{
     height: 60vh;
@@ -81,7 +81,7 @@ animation: cambio 120s infinite alternate linear;
    100%{--bx:00;}
 }
 
-@keyframes cambio{
+/* @keyframes cambio{
     0%{margin-left:        0vw;}
     5%{margin-left:   -37.75vw;}
     10%{margin-left:   -75.5vw;}
@@ -103,4 +103,8 @@ animation: cambio 120s infinite alternate linear;
     90%{margin-left:  -679.5vw;}
     95%{margin-left: -717.25vw;}
     100%{margin-left:   -755vw;}
+} */
+@keyframes cambio{
+    
+    100%{margin-left:   -1030vw;}
 }

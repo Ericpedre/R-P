@@ -1,4 +1,4 @@
-#Galeria_Seccion_3{
+#Index_Seccion_3{
     height: 20vh;
     max-height: 20vh;
     background: #00000000;
@@ -18,9 +18,11 @@
     -0px -6px 20px 0px rgb(37, 41, 44, 1);
     align-content: center;
     align-items: center;
+    display: none;
 }
 .container_1>.row_1p{
     margin-top: 1vh;
+    padding-bottom: 5vh;
     width: 50vw;
     display: flex;
     align-content: center;
@@ -54,7 +56,7 @@
 }
 .Desc{
     margin-top: 0vh;
-    width: 50vw;
+    width: 100vw;
     height: 25vh;
     background: #0000002b;
     box-shadow:
@@ -63,7 +65,7 @@
 }
 .Desc>h1{
     margin-top: 1vh;
-    width: 50vw;
+    width: 48vw;
     background: #00000000;
     text-align: left;
     padding-left: 2vw;

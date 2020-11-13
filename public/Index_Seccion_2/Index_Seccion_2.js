@@ -75,6 +75,28 @@ Fotos_Todas = Fotos_Exteriores_H.concat(Fotos_Bebes_V, Fotos_Bebes_H, Fotos_Exte
 Fot = []; 
 
 var Parejas_H_IA = [];
+
+
+function shuffle(Fotos_Todas) {
+    var currentIndex = Fotos_Todas.length, temporaryValue, randomIndex;
+  
+    // Mientras queden elementos a mezclar...
+    while (0 !== currentIndex) {
+  
+      // Seleccionar un elemento sin mezclar...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      // E intercambiarlo con el elemento actual
+      temporaryValue = Fotos_Todas[currentIndex];
+      Fotos_Todas[currentIndex] = Fotos_Todas[randomIndex];
+      Fotos_Todas[randomIndex] = temporaryValue;
+    }
+  
+    return Fotos_Todas;
+  }
+  
+  Fotos_Todas = shuffle(Fotos_Todas);
+
 for(i=0; Fotos_Todas.length>i; i++){
 document.getElementById("Contenedor_de_fotos").innerHTML +=`
     
@@ -92,6 +114,3 @@ document.getElementById("Contenedor_de_fotos").innerHTML +=`
     </div>
  
     `;
-}
-
-

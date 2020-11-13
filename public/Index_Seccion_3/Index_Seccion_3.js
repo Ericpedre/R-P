@@ -1,5 +1,5 @@
-GALERIA_Btn_Sesion = [];
-GALERIA_Btn_Sesion = [
+Index_Btn_Sesion = [];
+Index_Btn_Sesion = [
     [
       'https://drive.google.com/uc?export=view&id=1A3p8F-kjoeESETjV5j-eSbyCB2fC8znv',
       'Sesion en Bodas',
@@ -86,27 +86,48 @@ GALERIA_Btn_Sesion = [
     ]
 ];
 
-for(i=0; GALERIA_Btn_Sesion.length>i; i++){
+function shuffle(Index_Btn_Sesion) {
+  var currentIndex = Index_Btn_Sesion.length, temporaryValue, randomIndex;
+
+  // Mientras queden elementos a mezclar...
+  while (0 !== currentIndex) {
+
+    // Seleccionar un elemento sin mezclar...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+    // E intercambiarlo con el elemento actual
+    temporaryValue = Index_Btn_Sesion[currentIndex];
+    Index_Btn_Sesion[currentIndex] = Index_Btn_Sesion[randomIndex];
+    Index_Btn_Sesion[randomIndex] = temporaryValue;
+  }
+
+  return Index_Btn_Sesion;
+}
+
+Index_Btn_Sesion = shuffle(Index_Btn_Sesion);
+
+
+for(i=0; Index_Btn_Sesion.length>i; i++){
 document.getElementById('Album_1').innerHTML +=`
     <div>
-        <img src="${GALERIA_Btn_Sesion[i][0]}">
-        <h1>${GALERIA_Btn_Sesion[i][1]}</h1>
-        <p>${GALERIA_Btn_Sesion[i][2]}</p>
-        <p><a  onclick="document.getElementById('Desc_h1').innerHTML='${GALERIA_Btn_Sesion[i][1]}';
-          document.getElementById('Desc_p').innerHTML='${GALERIA_Btn_Sesion[i][2]}';
+        <img src="${Index_Btn_Sesion[i][0]}">
+        <h1>${Index_Btn_Sesion[i][1]}</h1>
+        <p>${Index_Btn_Sesion[i][2]}</p>
+        <p><a  onclick="document.getElementById('Desc_h1').innerHTML='${Index_Btn_Sesion[i][1]}';
+          document.getElementById('Desc_p').innerHTML='${Index_Btn_Sesion[i][2]}';
 
-          document.getElementById('1_h2_c_2').innerHTML='${GALERIA_Btn_Sesion[i][3]}';
-          document.getElementById('1_p_c_2').innerHTML='${GALERIA_Btn_Sesion[i][4]}';
-          document.getElementById('1_a_c_2').innerHTML='${GALERIA_Btn_Sesion[i][5]}';
+          document.getElementById('1_h2_c_2').innerHTML='${Index_Btn_Sesion[i][3]}';
+          document.getElementById('1_p_c_2').innerHTML='${Index_Btn_Sesion[i][4]}';
+          document.getElementById('1_a_c_2').innerHTML='${Index_Btn_Sesion[i][5]}';
 
-          document.getElementById('2_h2_c_2').innerHTML='${GALERIA_Btn_Sesion[i][6]}';
-          document.getElementById('2_p_c_2').innerHTML='${GALERIA_Btn_Sesion[i][7]}';
-          document.getElementById('2_a_c_2').innerHTML='${GALERIA_Btn_Sesion[i][8]}';
+          document.getElementById('2_h2_c_2').innerHTML='${Index_Btn_Sesion[i][6]}';
+          document.getElementById('2_p_c_2').innerHTML='${Index_Btn_Sesion[i][7]}';
+          document.getElementById('2_a_c_2').innerHTML='${Index_Btn_Sesion[i][8]}';
 
-          document.getElementById('3_h2_c_2').innerHTML='${GALERIA_Btn_Sesion[i][9]}';
-          document.getElementById('3_p_c_2').innerHTML='${GALERIA_Btn_Sesion[i][10]}';
-          document.getElementById('3_a_c_2').innerHTML='${GALERIA_Btn_Sesion[i][11]}';
-          
+          document.getElementById('3_h2_c_2').innerHTML='${Index_Btn_Sesion[i][9]}';
+          document.getElementById('3_p_c_2').innerHTML='${Index_Btn_Sesion[i][10]}';
+          document.getElementById('3_a_c_2').innerHTML='${Index_Btn_Sesion[i][11]}';
+          document.getElementById('container_1').style.display='flex';
           "
 
           class="btn btn-secondary"  role="button">Cotizar</a></p>
