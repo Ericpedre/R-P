@@ -9,7 +9,7 @@ body{
   text-align: center;
   height: 100vh;
   max-height: 100vh;
-  /* background: #161a1d; */
+  background: #161a1d;
   }
   #logo_1{
     height: 5vh;
@@ -19,9 +19,8 @@ body{
 #Index{
     display:flex;
     background: #161a1d;
-
-    /* background-image: url('https://cdn.pixabay.com/photo/2014/01/02/04/14/woman-237438_960_720.jpg');
-    background-size: cover; */
+   /* background-image: url('https://cdn.pixabay.com/photo/2014/01/02/04/14/woman-237438_960_720.jpg'); */
+    background-size: cover; 
 
     flex-direction: column;
     justify-items: center;

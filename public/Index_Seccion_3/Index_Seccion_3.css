@@ -1,7 +1,7 @@
 #Index_Seccion_3{
-    height: 20vh;
-    max-height: 20vh;
-    background: #00000000;
+    height: 30vh;
+    max-height: 30vh;
+    background: #57000080;
     margin-top: 0vh;
     padding-top: 1vh;
      /* align-content: center;
@@ -11,8 +11,8 @@
 .container_1{
     margin-top: 0vh;
     width: 50vw;
-    height: 25vh;
-    background: #0000002b;
+    height: 30vh;
+    background: #00000000;
     /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
     -0px -6px 20px 0px rgb(37, 41, 44, 1); */
@@ -23,12 +23,12 @@
 .container_1>.row_1p{
     margin-top: 1vh;
     padding-bottom: 5vh;
-    width: 50vw;
+    width: 55vw;
     display: flex;
     align-content: center;
     align-items: center;
-    height: 20vh;
-    padding-left: 2.5vw;
+    height: 30vh;
+    padding-left: 0vw;
 }
 .container_1>.row_1p>.container_2{
     width: 15vw;
@@ -37,12 +37,13 @@
     height: auto;
     color: #f0ece2;
     margin-top: 5vh;
-    /* box-shadow:
-    6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
+    box-shadow:
+    6px 6px 20px -1px  rgba(46, 46, 46, 0.5),
+    -0px -6px 20px 0px rgb(0, 0, 0,0.5);
     border-radius: 0.25vw;
      align-content: center;
     align-items: center;
+    margin-left: 1vw;
 }
 .container_1>.row_1p>.container_2>p>.btn-secondary{
     background: #004ca9f9;
@@ -57,7 +58,7 @@
 .Desc{
     margin-top: 0vh;
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     background: #0000002b;
     /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
