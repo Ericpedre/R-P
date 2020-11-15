@@ -9,7 +9,7 @@ body{
   text-align: center;
   height: 100vh;
   max-height: 100vh;
-  background: #161a1d;
+  /* background: #161a1d; */
   }
   #logo_1{
     height: 5vh;
@@ -19,6 +19,10 @@ body{
 #Index{
     display:flex;
     background: #161a1d;
+
+    /* background-image: url('https://cdn.pixabay.com/photo/2014/01/02/04/14/woman-237438_960_720.jpg');
+    background-size: cover; */
+
     flex-direction: column;
     justify-items: center;
     align-content: center;
@@ -55,12 +59,13 @@ body{
     margin-top: 16.5vh;
     max-height: 48.5vh;
     height: 48.5vh; 
-    width: 55vw;
-    background: #161a1d;
+    width: 100vw;
+    background: #161a1d00;
     display: flex;
   flex-wrap: wrap;
-  overflow: auto;
-  margin-left: 45vw;
+  overflow: hidden;
+  margin-left: 0vw;
+
  }
 .flot>#Album_1>div{
  height: 45vh;
@@ -71,8 +76,11 @@ body{
  -0px -6px 20px 0px rgb(39, 39, 39);
  /* padding: 2vw; */
  border-radius: 0.25vh;
- margin-left: 1.5vw;
+ margin-left: 1vw;
  margin-bottom: 1vw;
+ animation-duration: 25s;
+ animation-name: as;
+ animation-iteration-count: infinite;
 }
 
 .flot>#Album_1>div>img{
@@ -99,3 +107,27 @@ box-shadow:
   margin-right: 2vw;
   
 }
+
+@keyframes as{
+    0%{margin-left:   0.5vw;}
+    5%{margin-left:   0.5vw;}
+    10%{margin-left:  1.0vw;}
+    15%{margin-left:  1.0vw;}
+    20%{margin-left:  0.5vw;}
+    25%{margin-left:  0.5vw;}
+    30%{margin-left:  1.0vw;}
+    35%{margin-left:  1.0vw;}
+    40%{margin-left:  0.5vw;}
+    45%{margin-left:  0.5vw;}
+    50%{margin-left:  1.0vw;}
+    55%{margin-left:  1.0vw;}
+    60%{margin-left:  0.5vw;}
+    65%{margin-left:  0.5vw;}
+    70%{margin-left:  1.0vw;}
+    75%{margin-left:  1.0vw;}
+    80%{margin-left:  0.5vw;}
+    85%{margin-left:  0.5vw;}
+    90%{margin-left:  1.0vw;}
+    95%{margin-left:  1.0vw;}
+    100%{margin-left: 0.5vw;}
+} 

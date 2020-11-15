@@ -77,40 +77,40 @@ Fot = [];
 var Parejas_H_IA = [];
 
 
-function shuffle(Fotos_Todas) {
-    var currentIndex = Fotos_Todas.length, temporaryValue, randomIndex;
+// function shuffle(Fotos_Todas) {
+//     var currentIndex = Fotos_Todas.length, temporaryValue, randomIndex;
   
-    // Mientras queden elementos a mezclar...
-    while (0 !== currentIndex) {
+//     // Mientras queden elementos a mezclar...
+//     while (0 !== currentIndex) {
   
-      // Seleccionar un elemento sin mezclar...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-      // E intercambiarlo con el elemento actual
-      temporaryValue = Fotos_Todas[currentIndex];
-      Fotos_Todas[currentIndex] = Fotos_Todas[randomIndex];
-      Fotos_Todas[randomIndex] = temporaryValue;
-    }
+//       // Seleccionar un elemento sin mezclar...
+//       randomIndex = Math.floor(Math.random() * currentIndex);
+//       currentIndex -= 1;
+//       // E intercambiarlo con el elemento actual
+//       temporaryValue = Fotos_Todas[currentIndex];
+//       Fotos_Todas[currentIndex] = Fotos_Todas[randomIndex];
+//       Fotos_Todas[randomIndex] = temporaryValue;
+//     }
   
-    return Fotos_Todas;
-  }
+//     return Fotos_Todas;
+//   }
   
-  Fotos_Todas = shuffle(Fotos_Todas);
+//   Fotos_Todas = shuffle(Fotos_Todas);
 
-for(i=0; Fotos_Todas.length>i; i++){
-document.getElementById("Contenedor_de_fotos").innerHTML +=`
+// for(i=0; Fotos_Todas.length>i; i++){
+// document.getElementById("Contenedor_de_fotos").innerHTML +=`
     
-    <div id="f">
+//     <div id="f">
     
-        <img id="img_CdF${i}" class="img_CdF${i}" src="${Fotos_Todas[i][0]}"
-        onclick="i = ${i+1};
-        document.getElementById('svg_CdF${i}').style.color='rgb(255,20,20)';
-        Fot.push('${i}');">
+//         <img id="img_CdF${i}" class="img_CdF${i}" src="${Fotos_Todas[i][0]}"
+//         onclick="i = ${i+1};
+//         document.getElementById('svg_CdF${i}').style.color='rgb(255,20,20)';
+//         Fot.push('${i}');">
 
-        <svg id="svg_CdF${i}" viewBox="0 0 16 16" class="bi bi-bookmark-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M4 0a2 2 0 0 0-2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4zm4 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
-        </svg>
+//         <svg id="svg_CdF${i}" viewBox="0 0 16 16" class="bi bi-bookmark-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+//           <path fill-rule="evenodd" d="M4 0a2 2 0 0 0-2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4zm4 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+//         </svg>
 
-    </div>
+//     </div>
  
-    `;
+//     `;}

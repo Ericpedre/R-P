@@ -13,9 +13,9 @@
     width: 50vw;
     height: 25vh;
     background: #0000002b;
-    box-shadow:
+    /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
     align-content: center;
     align-items: center;
     display: none;
@@ -37,18 +37,18 @@
     height: auto;
     color: #f0ece2;
     margin-top: 5vh;
-    box-shadow:
+    /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
     border-radius: 0.25vw;
      align-content: center;
     align-items: center;
 }
 .container_1>.row_1p>.container_2>p>.btn-secondary{
     background: #004ca9f9;
-    box-shadow:
+    /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
     border-radius: 0.25vh;
     border-color: #00000000;
     align-content: center;
@@ -59,9 +59,9 @@
     width: 100vw;
     height: 25vh;
     background: #0000002b;
-    box-shadow:
+    /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
 }
 .Desc>h1{
     margin-top: 1vh;
@@ -80,9 +80,9 @@
 }
 .Desc>p>a{
     background: #004ca9f9;
-    box-shadow:
+    /* box-shadow:
     6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(37, 41, 44, 1);
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
     border-radius: 0.25vh;
     border-color: #00000000;
     align-content: center;
