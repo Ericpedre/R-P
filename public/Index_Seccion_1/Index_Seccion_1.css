@@ -10,16 +10,10 @@
     flex-direction: column;
     overflow-y: hidden;
     overflow-x: hidden;
-    box-shadow:
-    6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(39, 39, 39);
+    background-color: #000000b5;
 }
 
 .nav{
     width: 100vw;
     height:8vh;
-    background: #000000;
-    box-shadow:
-    6px 6px 20px -1px  rgb(7, 11, 14,1),
-    -0px -6px 20px 0px rgb(39, 39, 39);
 }

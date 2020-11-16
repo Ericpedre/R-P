@@ -1,6 +1,12 @@
 
 #Index_Seccion_2{
-    background: #00246180;
+    background-color: #000000b5;
+/* background: -webkit-linear-gradient(to bottom, #000000e2, #00000089); 
+background: linear-gradient(to bottom, #000000e2, #00000089);  */
+/* 
+    box-shadow:
+    6px 6px 20px -1px  rgba(0, 0, 0, 0.5),
+    -0px -6px 20px 0px rgba(0, 0, 0, 0.5); */
     /* background: #570000b3; */
     height: 65vh;
     width: 100vw;
