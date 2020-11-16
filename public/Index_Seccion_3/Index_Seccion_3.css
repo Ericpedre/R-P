@@ -1,0 +1,111 @@
+#Index_Seccion_3{
+    height: 30vh;
+    max-height: 30vh;
+    background-color: #000000b5;
+    margin-top: 0vh;
+    padding-top: 1vh;
+     /* align-content: center;
+    align-items: center; */
+    display: flex;
+}
+.container_1{
+    margin-top: 0vh;
+    width: 50vw;
+    height: 30vh;
+    background: #00000000;
+    /* box-shadow:
+    6px 6px 20px -1px  rgb(7, 11, 14,1),
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
+    align-content: center;
+    align-items: center;
+    display: none;
+}
+.container_1>.row_1p{
+    margin-top: 1vh;
+    padding-bottom: 5vh;
+    width: 55vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 30vh;
+    padding-left: 0vw;
+}
+.container_1>.row_1p>.container_2{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    color: #f0ece2;
+    margin-top: 5vh;
+    background-color: #0000004a;
+ /* box-shadow:
+ 6px 6px 20px -1px  rgba(0, 0, 0, 0.5),
+ -0px -6px 20px 0px rgba(0, 0, 0, 0.5); */
+    border-radius: 0.25vw;
+     align-content: center;
+    align-items: center;
+    margin-left: 1vw;
+}
+.container_1>.row_1p>.container_2>h4{
+   margin-top: 2vh;
+}
+
+.container_1>.row_1p>.container_2>p>.btn-secondary{
+    background: #004ca9f9;
+    /* box-shadow:
+    6px 6px 20px -1px  rgb(7, 11, 14,1),
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
+    border-radius: 0.25vh;
+    border-color: #00000000;
+    align-content: center;
+    align-items: center;
+}
+.Desc{
+    padding-left: 0.85vw;
+    margin-top: 0vh;
+    width: 100vw;
+    height: 30vh;
+    background: #00000000;
+    /* box-shadow:
+    6px 6px 20px -1px  rgb(7, 11, 14,1),
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
+}
+.Desc>h1{
+    margin-top: 3vh;
+    width: 47.1vw;
+    background: #00000000;
+    text-align: left;
+    padding-left: 2vw;
+    color: #ffffff;
+}
+.Desc>p{
+    width: 45vw;
+    background: #00000000;
+    text-align: left;
+    padding-left: 2vw;
+    color: #f0ece2;
+    margin-bottom: 2.5vh;
+}
+.Desc>p>a{
+    /* background: #004ca9f9; */
+    /* box-shadow:
+    6px 6px 20px -1px  rgb(7, 11, 14,1),
+    -0px -6px 20px 0px rgb(37, 41, 44, 1); */
+    border-radius: 0.25vh;
+    border-color: #00000000;
+    align-content: center;
+    align-items: center;
+}
+.Desc>h2{
+    width: 47.1vw;
+    text-align: left;
+    padding-left: 2vw;
+    color: #f0ece2;
+}
+
+.Rsocial{
+cursor: pointer;
+}
+.H1_Rs{
+    cursor: default;
+}
