@@ -1,0 +1,114 @@
+
+#Index_Seccion_2{
+    background-color: #000000b5;
+/* background: -webkit-linear-gradient(to bottom, #000000e2, #00000089); 
+background: linear-gradient(to bottom, #000000e2, #00000089);  */
+/* 
+    box-shadow:
+    6px 6px 20px -1px  rgba(0, 0, 0, 0.5),
+    -0px -6px 20px 0px rgba(0, 0, 0, 0.5); */
+    /* background: #570000b3; */
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+/* -----TEXTO 1------- */
+#Introduccion{
+    height: 18vh;
+    width: 100vw;
+}
+#Introduccion>h1{
+    /* height: 20vh; */
+    width: 100vw;
+    /* width: 100vw;  */
+    padding-left:1.5vw; 
+    padding-top: 1vh; 
+    text-align: center;
+    color: #f0ece2;
+}
+#Introduccion>p{
+    /* height: 20vh;
+    width: 100vw;
+    width: 100vw;  */
+    padding-left:1.5vw; 
+    padding-top: 1vh;  
+    text-align: center;
+    color: #f0ece2;
+}
+/* ---------CNTENEDOR DE FOTOS----- */
+#Contenedor_de_fotos{
+    height: 53vh;
+    width: 60vw;
+    border-radius: 0.25vh;
+    margin-left: 0.5vw;
+    /* margin: 1vh; */
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#CF1{
+animation: cambio 300s infinite alternate linear;
+}
+#Contenedor_de_fotos>#f{
+    height: 60vh;
+}
+#Contenedor_de_fotos>#f>img{
+    height: 49vh;
+    width: auto;
+    margin-right: 0.5vw; 
+    border-radius: 0.25vh;
+}
+#Contenedor_de_fotos>#f>svg{
+  color: rgb(227, 0, 0);
+  position: absolute;
+  margin-top: 2.5vh;
+  margin-left: -4vw;
+  height: 5vh;
+}
+#Contenedor_de_fotos>img:onclick{
+   animation-duration: 2s;
+   animation-name: Pe;
+   animation-iteration-count: 1;
+}
+@keyframes Pe{
+     0%{--bx:50;}
+    10%{--bx:45;}
+    20%{--bx:40;}
+    30%{--bx:35;}
+    40%{--bx:30;}
+    50%{--bx:25;}
+    60%{--bx:20;}
+    70%{--bx:15;}
+    80%{--bx:10;}
+    90%{--bx:05;}
+   100%{--bx:00;}
+}
+
+/* @keyframes cambio{
+    0%{margin-left:        0vw;}
+    5%{margin-left:   -37.75vw;}
+    10%{margin-left:   -75.5vw;}
+    15%{margin-left: -113.25vw;}
+    20%{margin-left:    -151vw;}
+    25%{margin-left: -188.75vw;}
+    30%{margin-left:  -226.5vw;}
+    35%{margin-left: -264.25vw;}
+    40%{margin-left:    -302vw;}
+    45%{margin-left: -339.75vw;}
+    50%{margin-left:  -377.5vw;}
+    55%{margin-left: -415.25vw;}
+    60%{margin-left:    -453vw;}
+    65%{margin-left: -490.75vw;}
+    70%{margin-left:  -528.5vw;}
+    75%{margin-left: -566.25vw;}
+    80%{margin-left:    -604vw;}
+    85%{margin-left: -641.75vw;}
+    90%{margin-left:  -679.5vw;}
+    95%{margin-left: -717.25vw;}
+    100%{margin-left:   -755vw;}
+} */
+@keyframes cambio{
+    
+    100%{margin-left:   -1030vw;}
+}

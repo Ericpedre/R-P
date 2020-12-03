@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&P Foto estudio</title>
+    <!-- ----inonic----- -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <ion-icon src="/path/to/external/file.svg"></ion-icon>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+
+    <!-------.css--------->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./ENCABEZADO/ENCABEZADO.css">
+    <link rel="stylesheet" href="./CONTENIDO/CONTENIDO.css">
+    <link rel="stylesheet" href="./CONTENIDO/GALERIA/GALERIA.css">
+
+    <!-- --------google font-------- -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- -----encabezado---- -->
+<div id="Sub">
+  <div id="log">
+    <img src="https://drive.google.com/uc?export=view&id=1YDkEQRhttleX-8v0Va1lw18baMvx5229">
+    <h1 id="Titulo_1" >R&P Fotos y Eventos</h1>
+  </div>
+  <p>MENU</p>
+  <p>FOTOS</p>
+  <p>NOSOTROS</p>
+  <div id="red">
+    <ion-icon  class="icon" name="logo-instagram"></ion-icon>
+    <ion-icon  class="icon" name="logo-whatsapp"></ion-icon>
+    <ion-icon  class="icon" name="logo-facebook"></ion-icon>
+    <ion-icon  class="icon" name="mail-sharp"></ion-icon>
+  </div>
+</div>
+
+<!-- -------CONTENIDO---- -->
+<div id="CONTENIDO">
+
+  <div id="V" onclick="document.getElementById('V').style='none'">
+    <img id="Vimg">
+ </div>
+
+
+  <div class="Bloque" id="Bloque1"><!-- --- -->
+    <div><!-- --- -->
+      <h1>R&P Fotos y Eventos</h1>
+      <p>Somos expertos en capturar momentos especiales para siempre, en formato fotrografico.</p>
+      <ion-button class="boton" color="light">Cotiza</ion-button> 
+      <div id="red2">
+        <ion-icon  class="icon" name="logo-instagram"></ion-icon>
+        <ion-icon  class="icon" name="logo-whatsapp"></ion-icon>
+        <ion-icon  class="icon" name="logo-facebook"></ion-icon>
+        <ion-icon  class="icon" name="mail-sharp"></ion-icon>
+      </div>  
+    </div><!-- --- -->
+  </div><!-- --- -->
+
+  <div class="Bloque" id="Bloque2"><!-- --- -->
+
+    <div><!-- --- -->
+
+      <h1>Galeria</h1>
+      <p>Mi un poco de nuestros trabajos</p>
+      <ion-button class="boton" color="light">Cotiza</ion-button> 
+      <div id="IM">
+      </div>
+      
+    </div><!-- --- -->
+  </div><!-- --- -->
+ 
+</div>
+
+
+
+<script src="./CONTENIDO/GALERIA/GALERIA.js"></script>
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCIlXsIYmOpZFQhTUEPLDbJUvHG8IYnk5I",
+    authDomain: "plantillas-de-prueba.firebaseapp.com",
+    projectId: "plantillas-de-prueba",
+    storageBucket: "plantillas-de-prueba.appspot.com",
+    messagingSenderId: "594746589801",
+    appId: "1:594746589801:web:35c7cfa4b64ad6757e58f8",
+    measurementId: "G-645K3HGHWB"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+</body>
+</html>
