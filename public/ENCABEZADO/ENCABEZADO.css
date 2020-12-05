@@ -1,65 +1,55 @@
 @media only screen and (orientation: landscape) {
-#Sub{
-margin-top: -3vh;
-/* position: absolute; */
- width: 100vw;
- height: 5vh;
- background: #e6e6e6;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-#Sub>p{
-    margin-left: 2vw;
-    color: #839b97;
-    font-size: 2vh;
-    font-family: 'Quicksand', sans-serif;
-    /* font-style: oblique; */
-    font-weight: 100;
-}
-
-#log{
-    height: 5vh;
-    width: 15.5vw;
-    /* border-radius: 5px; */
-    /* background: #110011; */
-    margin-left: 0vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 25vw;
-}
-#log>img{
-    height: 3vh;
-    /* margin-left: -50vw; */
-    margin-right: 0.5vw;
-    /* display: none; */
-}
-#log>h1{
-    margin-top: 1.5vh;
-    color: #494b50;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 100;
-    /* margin-right: 5vw; */
-    /* display: none; */
-    font-size: 2.5vh;
-    width: 15vw;
-}
-#red{
-    width: 10vw;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 25vw;
-}
-#red>.icon{
-    font-size: 3vh;
-    color: #222831;
-    margin-left: 0.5vw;
-}
+    #Sub {
+        /* position: absolute; */
+        width: 100vw;
+        height: 5vh;
+        background: #e6e6e6;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5vh;
+    }
+    #Sub>div>a {
+        margin-left: 1vw;
+        margin-right: 1vh;
+        color: #839b97;
+        font-size: 2vh;
+        font-family: 'Quicksand', sans-serif;
+        /* font-style: oblique; */
+        font-weight: 100;
+        text-decoration: none;
+    }
+    #log {
+        width: 212px;
+        /* border-radius: 5px; */
+        /* background: #110011; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #log>img {
+        height: 22px;
+        /* margin-left: -50vw; */
+        /* display: none; */
+    }
+    #log>h1 {
+        color: #494b50;
+        font-family: 'Kaushan Script', cursive;
+        font-weight: 100;
+        /* margin-right: 5vw; */
+        /* display: none; */
+        font-size: 100%;
+    }
+    #red {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #red>.icon {
+        font-size: 22px;
+        color: #222831;
+        margin: 0 3px;
+    }
 }
 
-@media only screen and (orientation: portrait){
-
-}
+@media only screen and (orientation: portrait) {}

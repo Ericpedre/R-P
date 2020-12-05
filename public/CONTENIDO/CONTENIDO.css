@@ -1,47 +1,48 @@
-#CONTENIDO{
+#CONTENIDO {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: #232931;
     /* background-image: url('https://drive.google.com/uc?export=view&id=10X1Wfpi38Hl0bJaD5ETK7e4xsSEUH9Eo'); */
-    background-size: cover;    
+    background-size: cover;
     overflow-y: auto;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
-.Bloque{
-   height: 100vh;
-   width: 100vw;
-   margin: 0;
-}
-.Bloque>div{
-    height: 100vh;
+
+.Bloque {
+    height: auto;
     width: 100vw;
-   
+    margin: 0;
+}
+
+.Bloque>div {
+    height: auto;
+    width: 100vw;
     background: #170034ae;
-
-
-
     animation-name: gradiente_M1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     /* animation-direction: reverse; */
-
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
- }
- /* ----------------bloque 1--------- */
-#Bloque1{
+}
+
+
+/* ----------------bloque 1--------- */
+
+#Bloque1 {
     background-image: url("https://cdn.pixabay.com/photo/2016/12/23/12/40/night-1927265_960_720.jpg");
     background-size: cover;
 }
 
-#Bloque1>div>h1{
+#Bloque1>div>h1 {
     font-family: 'Kaushan Script', cursive;
     margin: 0vh;
     margin-top: 12.5vh;
@@ -50,7 +51,8 @@
     font-size: 8vh;
     font-weight: 100;
 }
-#red2{
+
+#red2 {
     width: 40vw;
     height: 8vh;
     display: flex;
@@ -60,34 +62,41 @@
     background: #ffffff00;
     margin-top: 40vh;
 }
-#red2>.icon{
+
+#red2>.icon {
     font-size: 7vh;
     color: #ffffff9e;
     margin: 2.5vw;
     margin-top: 0;
     margin-bottom: 0;
 }
-#Bloque1>div>p{
+
+#Bloque1>div>p {
     /* font-family: 'Quicksand', sans-serif; */
     font-size: 2.5vh;
     margin: 0vh;
     color: aliceblue;
     margin-bottom: 5vh;
 }
-.boton{
-   font-family: 'Kaushan Script', cursive;
-   font-size: 2vh;
-   width: 10vw;
-   height: 5vh;
+
+.boton {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2vh;
+    width: 10vw;
+    height: 5vh;
 }
 
+
 /* ------ANIMACIONESS------ */
+
 @keyframes gradiente_M1 {
     0% {
         background: #170034ae;
     }
-  50%  {
-    background: #01174ac6;
-  }
-  }
-  /* , ) */
+    50% {
+        background: #01174ac6;
+    }
+}
+
+
+/* , ) */

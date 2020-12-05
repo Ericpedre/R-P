@@ -1,38 +1,49 @@
-body{
+body {
     margin: 0;
     padding: 0;
     overflow: hidden;
     background: #232931;
     /* background-image: url('https://drive.google.com/uc?export=view&id=10X1Wfpi38Hl0bJaD5ETK7e4xsSEUH9Eo'); */
-    background-size: cover;    
+    background-size: cover;
     overflow-y: hidden;
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
+
+
 /* -------------scroll bar------------- */
+
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 1vw;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
     background: #e6e6e6;
     width: 0.8vw;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
     background: #5c5c5c;
     border-color: #464646;
     border-style: solid;
     border-width: 0.01vw;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
     background: #5c5c5cd1;
     border-color: #5c5c5cd1;
     border-style: solid;
     border-width: 0.1vw;
-  }
+}
