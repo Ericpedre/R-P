@@ -3,11 +3,11 @@ body {
     padding: 0;
     overflow: hidden;
     background: #232931;
-    /* background-image: url('https://drive.google.com/uc?export=view&id=10X1Wfpi38Hl0bJaD5ETK7e4xsSEUH9Eo'); */
     background-size: cover;
     overflow-y: hidden;
     height: auto;
     width: 100vw;
+    object-fit: cover;
 }
 
 body>ion-icon {

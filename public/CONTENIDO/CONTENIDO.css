@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: #232931;
     /* background-image: url('https://drive.google.com/uc?export=view&id=10X1Wfpi38Hl0bJaD5ETK7e4xsSEUH9Eo'); */
     background-size: cover;
     overflow-y: auto;
@@ -11,6 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    object-fit: cover;
 }
 
 .Bloque {
@@ -37,8 +37,6 @@
 /* ----------------bloque 1--------- */
 
 #Bloque1 {
-    background-image: url("https://cdn.pixabay.com/photo/2016/12/23/12/40/night-1927265_960_720.jpg");
-    background-size: cover;
     height: 100vh;
 }
 

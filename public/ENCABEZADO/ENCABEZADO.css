@@ -9,6 +9,7 @@
         justify-content: space-between;
         padding: 0 5vh;
         position: absolute;
+        z-index: 200;
     }
     #Sub>div>a {
         margin-left: 1vw;
