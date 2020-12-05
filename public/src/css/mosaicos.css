@@ -1,0 +1,78 @@
+.mosaicos {
+    max-width: 1140px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.h-box {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-alone {
+    max-width: 100%;
+    flex: 1;
+    margin: 10px;
+    width: 450px;
+    min-width: 280px;
+}
+
+.img-text {
+    flex: 2;
+    max-width: 100%;
+    width: 500px;
+    min-width: 280px;
+}
+
+.paragraph {
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    flex-grow: 1;
+    max-width: 100%;
+    width: 210px;
+    min-width: 210px;
+    background-color: #fafafa;
+}
+
+.card {
+    margin: 10px;
+    max-width: 100%;
+    flex-basis: 590px;
+    height: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.pict-text {
+    flex: 2;
+}
+
+.pict-alone {
+    flex: auto;
+}
+
+.in-card {
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.double-card {
+    flex-direction: column;
+    margin: 10px;
+    max-width: 100%;
+    flex-basis: 590px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+.top {
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
