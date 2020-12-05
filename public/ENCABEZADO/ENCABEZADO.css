@@ -8,6 +8,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 0 5vh;
+        position: absolute;
     }
     #Sub>div>a {
         margin-left: 1vw;

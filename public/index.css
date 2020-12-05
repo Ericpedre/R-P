@@ -10,6 +10,10 @@ body {
     width: 100vw;
 }
 
+body>ion-icon {
+    display: none;
+}
+
 
 /* -------------scroll bar------------- */
 
